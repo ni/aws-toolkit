@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+
+</nicomment>
+<nierror code="400136">
+<B>UnknownError</B>
+An unknown Error occured. Please copy and save the Error source string and contact the developer.
+</nierror>
+<nierror code="400100">
+<B>AccessDenied</B>
+Access Denied
+</nierror>
+<nierror code="400101">
+<B>AccountProblem</B>
+There is a problem with your AWS account that prevents the operation from completing successfully. Please contact Amazon for further assistance.
+</nierror>
+<nierror code="400102">
+<B>AmbiguousGrantByEmailAddress</B>
+The e-mail address you provided is associated with more than one account.
+</nierror>
+<nierror code="400103">
+<B>BadDigest</B>
+The Content-MD5 you specified did not match what we received.
+</nierror>
+<nierror code="400104">
+<B>BucketAlreadyExists</B>
+The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.
+</nierror>
+<nierror code="400105">
+<B>BucketAlreadyOwnedByYou</B>
+Your previous request to create the named bucket succeeded and you already own it.
+</nierror>
+<nierror code="400106">
+<B>BucketNotEmpty</B>
+The bucket you tried to delete is not empty.
+</nierror>
+<nierror code="400107">
+<B>CredentialsNotSupported</B>
+This request does not support credentials.
+</nierror>
+<nierror code="400108">
+<B>CrossLocationLoggingProhibited</B>
+Cross location logging not allowed. Buckets in one geographic location cannot log information to a bucket in another location.
+</nierror>
+<nierror code="400109">
+<B>EntityTooSmall</B>
+Your proposed upload is smaller than the minimum allowed object size.
+</nierror>
+<nierror code="400110">
+<B>EntityTooLarge</B>
+Your proposed upload exceeds the maximum allowed object size.
+</nierror>
+<nierror code="400111">
+<B>ExpiredToken</B>
+The provided token has expired.
+</nierror>
+<nierror code="400112">
+<B>IllegalVersioningConfigurationException</B>
+Indicates that the Versioning configuration specified in the request is invalid.
+</nierror>
+<nierror code="400113">
+<B>IncompleteBody</B>
+You did not provide the number of bytes specified by the Content-Length HTTP header.
+</nierror>
+<nierror code="400114">
+<B>IncorrectNumberOfFilesInPostRequest</B>
+POST requires exactly one file upload per request.
+</nierror>
+<nierror code="400115">
+<B>InlineDataTooLarge</B>
+Inline data exceeds the maximum allowed size.
+</nierror>
+<nierror code="400116">
+<B>InternalError</B>
+Amazon S3 encountered an internal error. Please try again.
+</nierror>
+<nierror code="400117">
+<B>InvalidAccessKeyId</B>
+The AWS Access Key Id you provided does not exist in Amazon's records.
+</nierror>
+<nierror code="400118">
+<B>InvalidAddressingHeader</B>
+You must specify the Anonymous role.
+</nierror>
+<nierror code="400119">
+<B>InvalidArgument</B>
+Invalid Argument
+</nierror>
+<nierror code="400120">
+<B>InvalidBucketName</B>
+The specified bucket is not valid.
+</nierror>
+<nierror code="400121">
+<B>InvalidDigest</B>
+The Content-MD5 you specified was an invalid.
+</nierror>
+<nierror code="400122">
+<B>InvalidLocationConstraint</B>
+The specified location constraint is not valid. For more information about Regions, see "How to Select a Region for Your Buckets" document at: http://docs.amazonwebservices.com/AmazonS3/2006-03-01/dev/index.html?LocationSelection.html
+</nierror>
+<nierror code="400123">
+<B>InvalidPart</B>
+One or more of the specified parts could not be found.The part might not have been uploaded, or the specified entity tag might not have matched the part's entity tag.
+</nierror>
+<nierror code="400124">
+<B>InvalidPartOrder</B>
+The list of parts was not in ascending order.Parts list must specified in order by part number.
+</nierror>
+<nierror code="400125">
+<B>InvalidPayer</B>
+All access to this object has been disabled.
+</nierror>
+<nierror code="400126">
+<B>InvalidPolicyDocument</B>
+The content of the form does not meet the conditions specified in the policy document.
+</nierror>
+<nierror code="400127">
+<B>InvalidRange</B>
+The requested range cannot be satisfied.
+</nierror>
+<nierror code="400128">
+<B>InvalidSecurity</B>
+The provided security credentials are not valid.
+</nierror>
+<nierror code="400129">
+<B>InvalidSOAPRequest</B>
+The SOAP request body is invalid.
+</nierror>
+<nierror code="400130">
+<B>InvalidStorageClass</B>
+The storage class you specified is not valid.
+</nierror>
+<nierror code="400131">
+<B>InvalidTargetBucketForLogging</B>
+The target bucket for logging does not exist, is not owned by you, or does not have the appropriate grants for the log-delivery group.
+</nierror>
+<nierror code="400132">
+<B>InvalidToken</B>
+The provided token is malformed or otherwise invalid.
+</nierror>
+<nierror code="400133">
+<B>InvalidURI</B>
+Couldn't parse the specified URI.
+</nierror>
+<nierror code="400134">
+<B>KeyTooLong</B>
+Your key is too long.
+</nierror>
+<nierror code="400135">
+<B>MalformedACLError</B>
+The XML you provided was not well-formed or did not validate against Amazon's published schema.
+</nierror>
+<nierror code="400137">
+<B>MalformedPOSTRequest</B>
+The body of your POST request is not well-formed multipart/form-data.
+</nierror>
+<nierror code="400138">
+<B>MalformedXML</B>
+This happens when the user sends a malformed xml (xml that doesn't conform to the published xsd) for the configuration. The error message is, "The XML you provided was not well-formed or did not validate against our published schema."
+</nierror>
+<nierror code="400139">
+<B>MaxMessageLengthExceeded</B>
+Your request was too big.
+</nierror>
+<nierror code="400140">
+<B>MaxPostPreDataLengthExceededError</B>
+Your POST request fields preceding the upload file were too large.
+</nierror>
+<nierror code="400141">
+<B>MetadataTooLarge</B>
+Your metadata headers exceed the maximum allowed metadata size.
+</nierror>
+<nierror code="400142">
+<B>MethodNotAllowed</B>
+The specified method is not allowed against this resource.
+</nierror>
+<nierror code="400143">
+<B>MissingAttachment</B>
+A SOAP attachment was expected, but none were found.
+</nierror>
+<nierror code="400144">
+<B>MissingContentLength</B>
+You must provide the Content-Length HTTP header.
+</nierror>
+<nierror code="400145">
+<B>MissingRequestBodyError</B>
+This happens when the user sends an empty xml document as a request. The error message is, "Request body is empty."
+</nierror>
+<nierror code="400146">
+<B>MissingSecurityElement</B>
+The SOAP 1.1 request is missing a security element.
+</nierror>
+<nierror code="400147">
+<B>MissingSecurityHeader</B>
+Your request was missing a required header.
+</nierror>
+<nierror code="400148">
+<B>NoLoggingStatusForKey</B>
+There is no such thing as a logging status sub-resource for a key.
+</nierror>
+<nierror code="400149">
+<B>NoSuchBucket</B>
+The specified bucket does not exist.
+</nierror>
+<nierror code="400150">
+<B>NoSuchKey</B>
+The specified key does not exist.
+</nierror>
+<nierror code="400151">
+<B>NoSuchUpload</B>
+The specified multipart upload does not exist. The upload ID might be invalid, or the multipart upload might have been aborted or completed.
+</nierror>
+<nierror code="400152">
+<B>NoSuchVersion</B>
+Indicates that the version ID specified in the request does not match an existing version.
+</nierror>
+<nierror code="400153">
+<B>NotImplemented</B>
+A header you provided implies functionality that is not implemented.
+</nierror>
+<nierror code="400154">
+<B>NotSignedUp</B>
+Your account is not signed up for the Amazon S3 service.You must sign up before you can use Amazon S3. You can sign up at the following URL: http://aws.amazon.com/s3
+</nierror>
+<nierror code="400155">
+<B>OperationAborted</B>
+A conflicting conditional operation is currently in progress against this resource. Please try again.
+</nierror>
+<nierror code="400156">
+<B>PermanentRedirect</B>
+The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+</nierror>
+<nierror code="400157">
+<B>PreconditionFailed</B>
+At least one of the preconditions you specified did not hold.
+</nierror>
+<nierror code="400158">
+<B>Redirect</B>
+Temporary redirect.
+</nierror>
+<nierror code="400159">
+<B>RequestIsNotMultiPartContent</B>
+Bucket POST must be of the enclosure-type multipart/form-data.
+</nierror>
+<nierror code="400160">
+<B>RequestTimeout</B>
+Your socket connection to the server was not read from or written to within the timeout period.
+</nierror>
+<nierror code="400161">
+<B>RequestTimeTooSkewed</B>
+The difference between the request time and the server's time is too large.
+</nierror>
+<nierror code="400162">
+<B>RequestTorrentOfBucketError</B>
+Requesting the torrent file of a bucket is not permitted.
+</nierror>
+<nierror code="400163">
+<B>SignatureDoesNotMatch</B>
+The request signature Amazon calculated does not match the signature you provided. Check your AWS Secret Access Key and signing method.
+</nierror>
+<nierror code="400164">
+<B>SlowDown</B>
+Please reduce your request rate.
+</nierror>
+<nierror code="400165">
+<B>TemporaryRedirect</B>
+You are being redirected to the bucket while DNS updates.
+</nierror>
+<nierror code="400166">
+<B>TokenRefreshRequired</B>
+The provided token must be refreshed.
+</nierror>
+<nierror code="400167">
+<B>TooManyBuckets</B>
+You have attempted to create more buckets than allowed.
+</nierror>
+<nierror code="400168">
+<B>UnexpectedContent</B>
+This request does not support content.
+</nierror>
+<nierror code="400169">
+<B>UnresolvableGrantByEmailAddress</B>
+The e-mail address you provided does not match any account on record.
+</nierror>
+<nierror code="400170">
+<B>UserKeyMustBeSpecified</B>
+The bucket POST must contain the specified field name. If it is specified, please check the order of the fields.
+</nierror>
+<nierror code="400171">
+<B>NoSuchBucketPolicy</B> The bucket does not have a policy.
+</nierror>
+</nidocument>
