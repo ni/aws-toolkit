@@ -49,6 +49,8 @@
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="AWS Credentials.ctl" Type="VI" URL="../AWS Credentials.ctl"/>
+		<Item Name="Name Value Pair.ctl" Type="VI" URL="../Name Value Pair.ctl"/>
+		<Item Name="Region.ctl" Type="VI" URL="../Region.ctl"/>
 		<Item Name="Request Options.ctl" Type="VI" URL="../Request Options.ctl"/>
 		<Item Name="Response.ctl" Type="VI" URL="../Response.ctl"/>
 	</Item>
@@ -64,6 +66,6 @@
 		<Item Name="Send API Request v4.vi" Type="VI" URL="../Send API Request v4.vi"/>
 		<Item Name="SHA-256.vi" Type="VI" URL="../SHA-256.vi"/>
 	</Item>
-	<Item Name="AWS Core.lvclass" Type="LVClass" URL="../AWS Core/AWS Core.lvclass"/>
+	<Item Name="AWS Core.lvclass" Type="LVClass" URL="../AWS Core_class/AWS Core.lvclass"/>
 	<Item Name="Low-Level HTTP Request AWS v4.vi" Type="VI" URL="../Low-Level HTTP Request AWS v4.vi"/>
 </Library>
