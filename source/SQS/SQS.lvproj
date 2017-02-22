@@ -21,9 +21,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="External" Type="Folder">
-			<Item Name="NI_AWS Core.lvlib" Type="Library" URL="../../Core/NI_AWS Core.lvlib"/>
+			<Item Name="NI_AWS_Core.lvclass" Type="LVClass" URL="../../Core/NI_AWS_Core.lvclass"/>
 		</Item>
-		<Item Name="NI_SQS.lvlib" Type="Library" URL="../NI_SQS.lvlib"/>
+		<Item Name="NI_AWS_SQS.lvclass" Type="LVClass" URL="../NI_AWS_SQS.lvclass"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest__ogtk.vi"/>
