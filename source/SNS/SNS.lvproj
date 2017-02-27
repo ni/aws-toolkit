@@ -19,9 +19,12 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="NI_AWS_Core.lvlib" Type="Library" URL="../NI_AWS_Core.lvlib"/>
-		<Item Name="NI_AWS_SNS.lvlib" Type="Library" URL="../../SNS/NI_AWS_SNS.lvlib"/>
-		<Item Name="NI_AWS_SQS.lvlib" Type="Library" URL="../../SQS/NI_AWS_SQS.lvlib"/>
+		<Item Name="External" Type="Folder">
+			<Item Name="NI_AWS_Core.lvlib" Type="Library" URL="../../Core/NI_AWS_Core.lvlib"/>
+		</Item>
+		<Item Name="NI_AWS_SNS.lvlib" Type="Library" URL="../NI_AWS_SNS.lvlib"/>
+		<Item Name="sns application sample.vi" Type="VI" URL="../sns application sample.vi"/>
+		<Item Name="sns topic sample.vi" Type="VI" URL="../sns topic sample.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
