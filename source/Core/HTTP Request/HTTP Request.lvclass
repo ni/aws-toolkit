@@ -169,16 +169,25 @@
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082143248</Property>
 		</Item>
+		<Item Name="Unknown Error Code constant.vi" Type="VI" URL="../Unknown Error Code constant.vi">
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!#$!!!!!Q!%!!!!)U!$!"R"6V-A67ZL&lt;G^X&lt;C"&amp;=H*P=C"$&lt;W2F)(:B&lt;(6F!!"5!0!!$!!!!!!!!!!"!!!!!!!!!!!!!!!!!!!!!!)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"!!)!!!!!</Property>
+			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
+		</Item>
 	</Item>
 	<Item Name="Overrides" Type="Folder">
 		<Item Name="Parse Error XML.vi" Type="VI" URL="../Parse Error XML.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$^!!!!#!!%!!!!'E!Q`````R&amp;&amp;=H*P=C"%:8.D=GFQ&gt;'FP&lt;A!21!-!#E6S=G^S)%.P:'5!!!R!)1&gt;898*O;7ZH!"B!-0````]/1W^E:3"597=A6G&amp;M&gt;75!!"*!-0````]*28*S&lt;X)A7%V-!$R!=!!?!!!I%5Z*8U&amp;85V^$&lt;X*F,GRW&lt;'FC&amp;%B56&amp;!A5G6R&gt;76T&gt;#ZM&gt;G.M98.T!!!)16&gt;4)%.P=G5!!&amp;1!]!!-!!!!!1!#!!-!!!!!!!!!!!!!!!1!"1!'!Q!!?!!!!!!!!!U+!!!*!!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"%A!!!2)!!!#1!!!!!!%!"Q!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%(!!!!#!!%!!!!*%!Q`````RJ&amp;=H*P=C"%:8.D=GFQ&gt;'FP&lt;C"0&gt;G6S=GFE:1!!%5!$!!J&amp;=H*P=C"$&lt;W2F!!!-1#%(6W&amp;S&lt;GFO:Q!91$$`````$E.P:'5A6'&amp;H)&amp;:B&lt;(6F!!!31$$`````#56S=G^S)&amp;B.4!!]1(!!(A!!+"&amp;/36^"6V.@1W^S:3ZM&gt;GRJ9B2)6&amp;21)&amp;*F=86F=X1O&lt;(:D&lt;'&amp;T=Q!!#%&amp;85S"$&lt;X*F!!"5!0!!$!!!!!%!!A!$!!!!!!!!!!!!!!!%!!5!"A)!!(A!!!!!!!!*!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!B!!!!)1!!!!E!!!!!!"!!=!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 		</Item>
 	</Item>
 	<Item Name="String Parsing" Type="Folder">
