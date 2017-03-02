@@ -1,0 +1,42 @@
+<?XML Version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+LabVIEW error codes file - AWS Toolkit - SQS
+</nicomment>
+<nierror code="412100">
+AWS.SimpleQueueService.MessageNotInflight - The message referred to is not in flight.
+</nierror>
+<nierror code="412101">
+AWS.SimpleQueueService.NonExistentQueue - The queue referred to doesn't exist.
+</nierror>
+<nierror code="412102">
+AWS.SimpleQueueService.PurgeQueueInProgress - The specified queue previously received a PurgeQueue request within the last 60 seconds.
+</nierror>
+<nierror code="412103">
+AWS.SimpleQueueService.QueueDeletedRecently - You must wait 60 seconds after deleting a queue before you can create another one with the same name.
+</nierror>
+<nierror code="412104">
+AWS.SimpleQueueService.UnsupportedOperation - The requested operation is not supported.
+</nierror>
+<nierror code="412105">
+InvalidAttributeName - The specified attribute does not exist.
+</nierror>
+<nierror code="412106">
+InvalidIdFormat - The receipt handle is not valid for the current version.
+</nierror>
+<nierror code="412107">
+InvalidMessageContents - The message contains characters outside the allowed set.
+</nierror>
+<nierror code="412108">
+OverLimit - The specified action that you requested would violate a limit. For example, Receive Message returns this error if the maximum number of inflight messages is reached. Add Permission returns this error if the maximum number of permissions for the queue is reached.
+</nierror>
+<nierror code="412109">
+QueueAlreadyExists - A queue already exists with this name. Amazon SQS returns this error only if the request includes attributes whose values differ from those of the existing queue.
+</nierror>
+<nierror code="412110">
+ReceiptHandleIsInvalid - The receipt handle provided is not valid.
+</nierror>
+<nierror code="412111">
+The AWS SQS VIs do not currently support FIFO Queues.
+</nierror>
+</nidocument>

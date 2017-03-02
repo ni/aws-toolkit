@@ -1,0 +1,117 @@
+<?XML Version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+LabVIEW error codes file - AWS Toolkit - Core
+</nicomment>
+<nierror code="412000">
+An unknown AWS error occurred.
+</nierror>
+<nierror code="412001">
+AccessDenied - Access denied.
+</nierror>
+<nierror code="412002">
+AccountProblem - There is a problem with your AWS account that prevents the operation from completing successfully. Please contact Amazon for further assistance.
+</nierror>
+<nierror code="412003">
+AmbiguousGrantByEmailAddress - The e-mail address you provided is associated with more than one account.
+</nierror>
+<nierror code="412004">
+BadDigest - The specified Content-MD5 did not match the received value.
+</nierror>
+<nierror code="412005">
+InvalidParameterValue - A specified parameter value is invalid.
+</nierror>
+<nierror code="412006">
+MalformedInput - An input value is invalid.
+</nierror>
+<nierror code="412007">
+CredentialsNotSupported - This request does not support credentials.
+</nierror>
+<nierror code="412008">
+ExpiredToken - The provided token has expired.
+</nierror>
+<nierror code="412009">
+IllegalVersioningConfigurationException - The versioning configuration specified in the request is invalid.
+</nierror>
+<nierror code="412010">
+IncompleteBody - The Content-Length HTTP header is missing the number of bytes.
+</nierror>
+<nierror code="412011">
+InternalError - An unknown internal error occurred.
+</nierror>
+<nierror code="412012">
+InvalidAccessKeyId - The provided AWS Access Key Id does not exist in Amazon's records.
+</nierror>
+<nierror code="412013">
+InvalidAddressingHeader - The addressing header must specify the Anonymous role.
+</nierror>
+<nierror code="412014">
+InvalidArgument - A specified argument is invalid.
+</nierror>
+<nierror code="412015">
+InvalidDigest - The specified Content-MD5 is invalid.
+</nierror>
+<nierror code="412016">
+InvalidLocationConstraint - The specified location constraint is not valid.
+</nierror>
+<nierror code="412017">
+InvalidPayer - All access to this object has been disabled.
+</nierror>
+<nierror code="412018">
+InvalidPolicyDocument - The content of the form does not meet the conditions specified in the policy document.
+</nierror>
+<nierror code="412019">
+InvalidSecurity - The provided security credentials are not valid.
+</nierror>
+<nierror code="412020">
+InvalidToken - The provided token is malformed or otherwise invalid.
+</nierror>
+<nierror code="412021">
+InvalidURI - The specified URI could not be parsed.
+</nierror>
+<nierror code="412022">
+MalformedXML - Configuration XML was specified that does not conform to the published XSD.
+</nierror>
+<nierror code="412023">
+MethodNotAllowed - The specified method is not allowed against this resource.
+</nierror>
+<nierror code="412024">
+NoSuchVersion - The version ID specified in the request does not match an existing version.
+</nierror>
+<nierror code="412025">
+NotImplemented - A provided header implies functionality that is not implemented.
+</nierror>
+<nierror code="412026">
+OperationAborted - A conflicting conditional operation is currently in progress against this resource.
+</nierror>
+<nierror code="412027">
+PreconditionFailed - At least one of the specified preconditions did not hold.
+</nierror>
+<nierror code="412028">
+Redirect - A temporary redirect URL was used.
+</nierror>
+<nierror code="412029">
+RequestTimeout - The socket connection to the server was not read from or written to within the timeout period.
+</nierror>
+<nierror code="412030">
+RequestTimeTooSkewed - The difference between the request time and the server's time is too large.
+</nierror>
+<nierror code="412031">
+SignatureDoesNotMatch - The request signature Amazon calculated does not match the provided signature. The AWS Secret Key value may be incorrect.
+</nierror>
+<nierror code="412032">
+SlowDown - The request rate is too high.
+</nierror>
+<nierror code="412033">
+TemporaryRedirect - A temporary redirect URL was used while DNS values are updated.
+</nierror>
+<nierror code="412034">
+Throttling - The connection is currently being throttled.
+</nierror>
+<nierror code="412035">
+Invalid string value.
+</nierror>
+<nierror code="412036">
+The requested URL's length exceeds the capacity limit for this server.
+</nierror>
+</nidocument>
