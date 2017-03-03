@@ -39,6 +39,7 @@
 	<Item Name="Endpoint.lvclass" Type="LVClass" URL="../Endpoint/Endpoint.lvclass"/>
 	<Item Name="Phone Number.lvclass" Type="LVClass" URL="../Phone Number/Phone Number.lvclass"/>
 	<Item Name="Platform Application.lvclass" Type="LVClass" URL="../Platform Application/Platform Application.lvclass"/>
+	<Item Name="SMS.lvclass" Type="LVClass" URL="../SMS/SMS.lvclass"/>
 	<Item Name="Subscription.lvclass" Type="LVClass" URL="../Subscription/Subscription.lvclass"/>
 	<Item Name="Topic.lvclass" Type="LVClass" URL="../Topic/Topic.lvclass"/>
 </Library>

@@ -24,6 +24,7 @@
 		<Item Name="NI_AWS_Core.lvlib" Type="Library" URL="../NI_AWS_Core.lvlib"/>
 		<Item Name="NI_AWS_SNS.lvlib" Type="Library" URL="../../SNS/NI_AWS_SNS.lvlib"/>
 		<Item Name="NI_AWS_SQS.lvlib" Type="Library" URL="../../SQS/NI_AWS_SQS.lvlib"/>
+		<Item Name="sns scratchpad.vi" Type="VI" URL="../../SNS/sns scratchpad.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
