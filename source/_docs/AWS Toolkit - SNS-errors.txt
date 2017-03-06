@@ -1,0 +1,30 @@
+<?XML Version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+LabVIEW error codes file - AWS Toolkit - SNS
+</nicomment>
+<nierror code="412200">
+NotFound - The specified resource was not found.
+</nierror>
+<nierror code="412201">
+AuthorizationError - The specified user has been denied access to the requested resource.
+</nierror>
+<nierror code="412202">
+SubscriptionLimitExceeded - The user already owns the maximum allowed number of subscriptions.
+</nierror>
+<nierror code="412203">
+TopicLimitExceeded - The user already owns the maximum allowed number of topics.
+</nierror>
+<nierror code="412204">
+The 'Set Subscription Attribute' VI only allows setting the 'DeliveryPolicy' and 'RawMessageDelivery' attributes.
+</nierror>
+<nierror code="412205">
+EndpointDisabled - The specified endpoint is disabled.
+</nierror>
+<nierror code="412206">
+ParameterValueInvalid - A request parameter does not comply with the associated constraints.
+</nierror>
+<nierror code="412207">
+PlatformApplicationDisabled - The specified platform application is disabled.
+</nierror>
+</nidocument>

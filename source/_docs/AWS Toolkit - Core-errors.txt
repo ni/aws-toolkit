@@ -106,12 +106,18 @@ SlowDown - The request rate is too high.
 TemporaryRedirect - A temporary redirect URL was used while DNS values are updated.
 </nierror>
 <nierror code="412034">
-Throttling - The connection is currently being throttled.
+Throttling/Throttled - The connection is currently being throttled because the rate at which requests have been submitted for this action exceeds the limit for your account.
 </nierror>
 <nierror code="412035">
 Invalid string value.
 </nierror>
 <nierror code="412036">
 The requested URL's length exceeds the capacity limit for this server.
+</nierror>
+<nierror code="412037">
+ValidationError - The input fails to satisfy the constraints specified by an AWS service.
+</nierror>
+<nierror code="412038">
+InvalidParameter - A request parameter does not comply with the associated constraints.
 </nierror>
 </nidocument>

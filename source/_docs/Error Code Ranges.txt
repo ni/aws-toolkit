@@ -3,5 +3,6 @@ Full error code range for all AWS Toolkit plugins is 412000 through 416999 (5000
 Individual assigned ranges are:
 
 AWS Core: 412000 - 412099
-SQS: 412100 - 412199
-SNS: 412200 - 412299
+SQS:      412100 - 412199
+SNS:      412200 - 412299
+S3:       412300 - 412399
