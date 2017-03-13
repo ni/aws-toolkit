@@ -9,8 +9,7 @@
 </Property>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="ACL.ctl" Type="VI" URL="../ACL.ctl"/>
-		<Item Name="Region handling.ctl" Type="VI" URL="../../Core/HTTP Request/Region handling.ctl"/>
-		<Item Name="URL formatting.ctl" Type="VI" URL="../../Core/HTTP Request/URL formatting.ctl"/>
+		<Item Name="Auth Device Data.ctl" Type="VI" URL="../Auth Device Data.ctl"/>
 	</Item>
 	<Item Name="Bucket.lvclass" Type="LVClass" URL="../Bucket/Bucket.lvclass"/>
 	<Item Name="Object.lvclass" Type="LVClass" URL="../Object/Object.lvclass"/>
