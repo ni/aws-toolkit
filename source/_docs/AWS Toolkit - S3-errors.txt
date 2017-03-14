@@ -1,0 +1,129 @@
+<?XML Version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+LabVIEW error codes file - AWS Toolkit - S3
+</nicomment>
+<nierror code="412300">
+BucketAlreadyExists - The requested bucket name is not available. The bucket namespace is shared by all users of the system. Please select a different name and try again.
+</nierror>
+<nierror code="412301">
+BucketAlreadyOwnedByYou - Your previous request to create the named bucket succeeded and you already own it.
+</nierror>
+<nierror code="412302">
+BucketNotEmpty - The bucket you tried to delete is not empty.
+</nierror>
+<nierror code="412303">
+CrossLocationLoggingProhibited - Cross location logging not allowed. Buckets in one geographic location cannot log information to a bucket in another location.
+</nierror>
+<nierror code="412304">
+EntityTooSmall - Your proposed upload is smaller than the minimum allowed object size.
+</nierror>
+<nierror code="412305">
+EntityTooLarge - Your proposed upload exceeds the maximum allowed object size.
+</nierror>
+<nierror code="412306">
+IncorrectNumberOfFilesInPostRequest - POST requires exactly one file upload per request.
+</nierror>
+<nierror code="412307">
+InlineDataTooLarge - Inline data exceeds the maximum allowed size.
+</nierror>
+<nierror code="412308">
+InvalidBucketName - The specified bucket is not valid.
+</nierror>
+<nierror code="412309">
+InvalidPart - One or more of the specified parts could not be found.The part might not have been uploaded, or the specified entity tag might not have matched the part's entity tag.
+</nierror>
+<nierror code="412310">
+InvalidPartOrder - The list of parts was not in ascending order.Parts list must specified in order by part number.
+</nierror>
+<nierror code="412311">
+InvalidRange - The requested range cannot be satisfied.
+</nierror>
+<nierror code="412312">
+InvalidSOAPRequest - The SOAP request body is invalid.
+</nierror>
+<nierror code="412313">
+InvalidStorageClass - The storage class you specified is not valid.
+</nierror>
+<nierror code="412314">
+InvalidTargetBucketForLogging - The target bucket for logging does not exist, is not owned by you, or does not have the appropriate grants for the log-delivery group.
+</nierror>
+<nierror code="412315">
+KeyTooLong - Your key is too long.
+</nierror>
+<nierror code="412316">
+MalformedACLError - The XML you provided was not well-formed or did not validate against Amazon's published schema.
+</nierror>
+<nierror code="412317">
+MalformedPOSTRequest - The body of your POST request is not well-formed multipart/form-data.
+</nierror>
+<nierror code="412318">
+MaxMessageLengthExceeded - Your request was too big.
+</nierror>
+<nierror code="412319">
+MaxPostPreDataLengthExceededError - Your POST request fields preceding the upload file were too large.
+</nierror>
+<nierror code="412320">
+MetadataTooLarge - Your metadata headers exceed the maximum allowed metadata size.
+</nierror>
+<nierror code="412321">
+MissingAttachment - A SOAP attachment was expected, but none were found.
+</nierror>
+<nierror code="412322">
+MissingContentLength - You must provide the Content-Length HTTP header.
+</nierror>
+<nierror code="412323">
+MissingRequestBodyError - You sent an empty xml document as a request.
+</nierror>
+<nierror code="412324">
+MissingSecurityElement - The SOAP request is missing a security element.
+</nierror>
+<nierror code="412325">
+MissingSecurityHeader - Your request was missing a required header.
+</nierror>
+<nierror code="412326">
+NoLoggingStatusForKey - There is no such thing as a logging status sub-resource for a key.
+</nierror>
+<nierror code="412327">
+NoSuchBucket - The specified bucket does not exist.
+</nierror>
+<nierror code="412328">
+NoSuchKey - The specified key does not exist.
+</nierror>
+<nierror code="412329">
+NoSuchUpload - The specified multipart upload does not exist. The upload ID might be invalid, or the multipart upload might have been aborted or completed.
+</nierror>
+<nierror code="412330">
+NotSignedUp - Your account is not signed up for the Amazon S3 service.
+</nierror>
+<nierror code="412331">
+OperationAborted - A conflicting conditional operation is currently in progress against this resource. Please try again.
+</nierror>
+<nierror code="412332">
+PermanentRedirect - The bucket you are attempting to access must be addressed using the specified endpoint. Please send all future requests to this endpoint.
+</nierror>
+<nierror code="412333">
+RequestIsNotMultiPartContent - Bucket POST must be of the enclosure-type multipart/form-data.
+</nierror>
+<nierror code="412334">
+RequestTorrentOfBucketError - Requesting the torrent file of a bucket is not permitted.
+</nierror>
+<nierror code="412335">
+TokenRefreshRequired - The provided token must be refreshed.
+</nierror>
+<nierror code="412336">
+TooManyBuckets - You have attempted to create more buckets than allowed.
+</nierror>
+<nierror code="412337">
+UnexpectedContent - This request does not support content.
+</nierror>
+<nierror code="412338">
+UnresolvableGrantByEmailAddress - The e-mail address you provided does not match any account on record.
+</nierror>
+<nierror code="412339">
+UserKeyMustBeSpecified - The bucket POST must contain the specified field name. If it is specified, please check the order of the fields.
+</nierror>
+<nierror code="412340">
+NoSuchBucketPolicy - The bucket does not have a policy.
+</nierror>
+</nidocument>

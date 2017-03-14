@@ -33,6 +33,14 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
+	<Item Name="Support" Type="Folder">
+		<Item Name="Convert Boolean string to boolean.vi" Type="VI" URL="../Convert Boolean string to boolean.vi"/>
+		<Item Name="Convert Byte Range to Range Header.vi" Type="VI" URL="../Convert Byte Range to Range Header.vi"/>
+		<Item Name="Convert Time stamp to RFC 1123 string.vi" Type="VI" URL="../Convert Time stamp to RFC 1123 string.vi"/>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Request Range.ctl" Type="VI" URL="../Request Range.ctl"/>
+	</Item>
 	<Item Name="ARN.lvclass" Type="LVClass" URL="../ARN/ARN.lvclass"/>
 	<Item Name="HTTP Request.lvclass" Type="LVClass" URL="../HTTP Request/HTTP Request.lvclass"/>
 </Library>
