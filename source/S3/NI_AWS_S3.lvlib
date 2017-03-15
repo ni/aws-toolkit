@@ -48,7 +48,9 @@
 		<Item Name="Object Content.ctl" Type="VI" URL="../Object Content.ctl"/>
 		<Item Name="Owner.ctl" Type="VI" URL="../Owner.ctl"/>
 	</Item>
+	<Item Name="Support" Type="Folder">
+		<Item Name="Convert Storage Class String to Enum.vi" Type="VI" URL="../Convert Storage Class String to Enum.vi"/>
+	</Item>
 	<Item Name="Bucket.lvclass" Type="LVClass" URL="../Bucket/Bucket.lvclass"/>
 	<Item Name="Object.lvclass" Type="LVClass" URL="../Object/Object.lvclass"/>
-	<Item Name="Convert Storage Class String to Enum.vi" Type="VI" URL="../Convert Storage Class String to Enum.vi"/>
 </Library>
