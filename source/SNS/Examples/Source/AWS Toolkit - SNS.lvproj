@@ -84,6 +84,7 @@
 			</Item>
 			<Item Name="NI_AWS_Core.lvlib" Type="Library" URL="../../../../Core/NI_AWS_Core.lvlib"/>
 			<Item Name="NI_AWS_SNS.lvlib" Type="Library" URL="../../../NI_AWS_SNS.lvlib"/>
+			<Item Name="NI_XML Parsing.lvlib" Type="Library" URL="../../../../XML Parsing/NI_XML Parsing.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

@@ -126,4 +126,25 @@ UserKeyMustBeSpecified - The bucket POST must contain the specified field name. 
 <nierror code="412340">
 NoSuchBucketPolicy - The bucket does not have a policy.
 </nierror>
+<nierror code="412341">
+InvalidBucketState - The request is not valid with the current state of the bucket.
+</nierror>
+<nierror code="412342">
+InvalidEncryptionAlgorithmError - The encryption request you specified is not valid. The valid value is AES256.
+</nierror>
+<nierror code="412343">
+InvalidObjectState - The operation is not valid for the current state of the object.
+</nierror>
+<nierror code="412344">
+InvalidRequest - Some part of the specified request is invalid.
+</nierror>
+<nierror code="412345">
+NoSuchLifecycleConfiguration - The lifecycle configuration does not exist.
+</nierror>
+<nierror code="412346">
+RestoreAlreadyInProgress - Object restore is already in progress.
+</nierror>
+<nierror code="412347">
+ServiceUnavailable - Reduce your request rate.
+</nierror>
 </nidocument>

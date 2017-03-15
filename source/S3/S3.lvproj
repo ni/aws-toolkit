@@ -23,9 +23,11 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="External" Type="Folder">
 			<Item Name="NI_AWS_Core.lvlib" Type="Library" URL="../../Core/NI_AWS_Core.lvlib"/>
+			<Item Name="NI_XML Parsing.lvlib" Type="Library" URL="../../XML Parsing/NI_XML Parsing.lvlib"/>
 		</Item>
 		<Item Name="NI_AWS_S3.lvlib" Type="Library" URL="../NI_AWS_S3.lvlib"/>
 		<Item Name="sample obtain and delete bucket.vi" Type="VI" URL="../sample obtain and delete bucket.vi"/>
+		<Item Name="sample obtain bucket and list objects.vi" Type="VI" URL="../sample obtain bucket and list objects.vi"/>
 		<Item Name="sample obtain bucket get object.vi" Type="VI" URL="../sample obtain bucket get object.vi"/>
 		<Item Name="sample obtain bucket put object.vi" Type="VI" URL="../sample obtain bucket put object.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
