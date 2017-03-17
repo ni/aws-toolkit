@@ -47,6 +47,10 @@
 		<Item Name="Common Prefix.ctl" Type="VI" URL="../Common Prefix.ctl"/>
 		<Item Name="Object Content.ctl" Type="VI" URL="../Object Content.ctl"/>
 		<Item Name="Owner.ctl" Type="VI" URL="../Owner.ctl"/>
+		<Item Name="User.ctl" Type="VI" URL="../User.ctl"/>
+		<Item Name="Grantee-Permission Pair.ctl" Type="VI" URL="../Grantee-Permission Pair.ctl"/>
+		<Item Name="Permission.ctl" Type="VI" URL="../Permission.ctl"/>
+		<Item Name="Access Control Policy.ctl" Type="VI" URL="../Access Control Policy.ctl"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Convert Storage Class String to Enum.vi" Type="VI" URL="../Convert Storage Class String to Enum.vi"/>
