@@ -51,9 +51,22 @@
 		<Item Name="Grantee-Permission Pair.ctl" Type="VI" URL="../Grantee-Permission Pair.ctl"/>
 		<Item Name="Permission.ctl" Type="VI" URL="../Permission.ctl"/>
 		<Item Name="Access Control Policy.ctl" Type="VI" URL="../Access Control Policy.ctl"/>
+		<Item Name="Logging Permission.ctl" Type="VI" URL="../Logging Permission.ctl"/>
+		<Item Name="Logging Grantee-Permission Pair.ctl" Type="VI" URL="../Logging Grantee-Permission Pair.ctl"/>
+		<Item Name="Logging Status.ctl" Type="VI" URL="../Logging Status.ctl"/>
+		<Item Name="Event.ctl" Type="VI" URL="../Event.ctl"/>
+		<Item Name="Queue Configuration.ctl" Type="VI" URL="../Queue Configuration.ctl"/>
+		<Item Name="Cloud Function Configuration.ctl" Type="VI" URL="../Cloud Function Configuration.ctl"/>
+		<Item Name="Topic Configuration.ctl" Type="VI" URL="../Topic Configuration.ctl"/>
+		<Item Name="Notification Configuration.ctl" Type="VI" URL="../Notification Configuration.ctl"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Convert Storage Class String to Enum.vi" Type="VI" URL="../Convert Storage Class String to Enum.vi"/>
+		<Item Name="Convert Event String to Enum.vi" Type="VI" URL="../Convert Event String to Enum.vi"/>
+		<Item Name="Parse Queue Configuration.vi" Type="VI" URL="../Parse Queue Configuration.vi"/>
+		<Item Name="Parse Cloud Configuration.vi" Type="VI" URL="../Parse Cloud Configuration.vi"/>
+		<Item Name="Parse Topic Configuration.vi" Type="VI" URL="../Parse Topic Configuration.vi"/>
+		<Item Name="Parse Notification.vi" Type="VI" URL="../Parse Notification.vi"/>
 	</Item>
 	<Item Name="Bucket.lvclass" Type="LVClass" URL="../Bucket/Bucket.lvclass"/>
 	<Item Name="Object.lvclass" Type="LVClass" URL="../Object/Object.lvclass"/>
