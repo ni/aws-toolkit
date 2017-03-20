@@ -27,6 +27,7 @@
 		</Item>
 		<Item Name="NI_AWS_S3.lvlib" Type="Library" URL="../NI_AWS_S3.lvlib"/>
 		<Item Name="sample obtain and delete bucket.vi" Type="VI" URL="../sample obtain and delete bucket.vi"/>
+		<Item Name="sample obtain and delete object.vi" Type="VI" URL="../sample obtain and delete object.vi"/>
 		<Item Name="sample obtain bucket and list objects.vi" Type="VI" URL="../sample obtain bucket and list objects.vi"/>
 		<Item Name="sample obtain bucket get object.vi" Type="VI" URL="../sample obtain bucket get object.vi"/>
 		<Item Name="sample obtain bucket put object.vi" Type="VI" URL="../sample obtain bucket put object.vi"/>
