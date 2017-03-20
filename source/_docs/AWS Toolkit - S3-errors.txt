@@ -147,4 +147,7 @@ RestoreAlreadyInProgress - Object restore is already in progress.
 <nierror code="412347">
 ServiceUnavailable - Reduce your request rate.
 </nierror>
+<nierror code="412348">
+NoSuchWebsiteConfiguration - The specified bucket does not have a website configuration.
+</nierror>
 </nidocument>

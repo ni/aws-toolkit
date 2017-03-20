@@ -59,6 +59,7 @@
 		<Item Name="Cloud Function Configuration.ctl" Type="VI" URL="../Cloud Function Configuration.ctl"/>
 		<Item Name="Topic Configuration.ctl" Type="VI" URL="../Topic Configuration.ctl"/>
 		<Item Name="Notification Configuration.ctl" Type="VI" URL="../Notification Configuration.ctl"/>
+		<Item Name="Payer.ctl" Type="VI" URL="../Payer.ctl"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Convert Storage Class String to Enum.vi" Type="VI" URL="../Convert Storage Class String to Enum.vi"/>
