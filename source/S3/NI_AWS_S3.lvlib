@@ -74,5 +74,5 @@
 		<Item Name="Parse Bucket Notification.vi" Type="VI" URL="../Parse Bucket Notification.vi"/>
 	</Item>
 	<Item Name="Bucket.lvclass" Type="LVClass" URL="../Bucket/Bucket.lvclass"/>
-	<Item Name="Object.lvclass" Type="LVClass" URL="../Object/Object.lvclass"/>
+	<Item Name="Object.lvlib" Type="Library" URL="../Object/Object.lvlib"/>
 </Library>
