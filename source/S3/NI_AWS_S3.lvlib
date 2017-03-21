@@ -44,7 +44,6 @@
 		<Item Name="PUT Object Request Parameters.ctl" Type="VI" URL="../PUT Object Request Parameters.ctl"/>
 		<Item Name="Storage Class.ctl" Type="VI" URL="../Storage Class.ctl"/>
 		<Item Name="List Objects Result.ctl" Type="VI" URL="../List Objects Result.ctl"/>
-		<Item Name="Common Prefix.ctl" Type="VI" URL="../Common Prefix.ctl"/>
 		<Item Name="Object Content.ctl" Type="VI" URL="../Object Content.ctl"/>
 		<Item Name="Owner.ctl" Type="VI" URL="../Owner.ctl"/>
 		<Item Name="User.ctl" Type="VI" URL="../User.ctl"/>
