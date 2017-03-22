@@ -60,6 +60,7 @@
 		<Item Name="Notification Configuration.ctl" Type="VI" URL="../Notification Configuration.ctl"/>
 		<Item Name="Payer.ctl" Type="VI" URL="../Payer.ctl"/>
 		<Item Name="Website Configuration.ctl" Type="VI" URL="../Website Configuration.ctl"/>
+		<Item Name="Part.ctl" Type="VI" URL="../Part.ctl"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
 		<Item Name="Convert Storage Class String to Enum.vi" Type="VI" URL="../Convert Storage Class String to Enum.vi"/>
@@ -71,7 +72,10 @@
 		<Item Name="Generate Event XML.vi" Type="VI" URL="../Generate Event XML.vi"/>
 		<Item Name="Generate Filter Rule XML.vi" Type="VI" URL="../Generate Filter Rule XML.vi"/>
 		<Item Name="Parse Bucket Notification.vi" Type="VI" URL="../Parse Bucket Notification.vi"/>
+		<Item Name="Parse Multipart Upload Parameters.vi" Type="VI" URL="../Parse Multipart Upload Parameters.vi"/>
+		<Item Name="Parse Access Control Policy.vi" Type="VI" URL="../Parse Access Control Policy.vi"/>
 	</Item>
 	<Item Name="Bucket.lvclass" Type="LVClass" URL="../Bucket/Bucket.lvclass"/>
 	<Item Name="Object.lvlib" Type="Library" URL="../Object/Object.lvlib"/>
+	<Item Name="Multipart Upload.lvclass" Type="LVClass" URL="../Multipart Upload/Multipart Upload.lvclass"/>
 </Library>
