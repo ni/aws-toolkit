@@ -22,6 +22,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="NI_AWS_Core.lvlib" Type="Library" URL="../NI_AWS_Core.lvlib"/>
+		<Item Name="NI_AWS_IoT.lvlib" Type="Library" URL="../../IoT/NI_AWS_IoT.lvlib"/>
 		<Item Name="NI_AWS_S3.lvlib" Type="Library" URL="../../S3/NI_AWS_S3.lvlib"/>
 		<Item Name="NI_AWS_SNS.lvlib" Type="Library" URL="../../SNS/NI_AWS_SNS.lvlib"/>
 		<Item Name="NI_AWS_SQS.lvlib" Type="Library" URL="../../SQS/NI_AWS_SQS.lvlib"/>
