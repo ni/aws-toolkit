@@ -120,4 +120,7 @@ ValidationError - The input fails to satisfy the constraints specified by an AWS
 <nierror code="412038">
 InvalidParameter - A request parameter does not comply with the associated constraints.
 </nierror>
+<nierror code="412039">
+SerializationException - An error occurred during serialization. This is probably due to a JSON payload being malformed.
+</nierror>
 </nidocument>

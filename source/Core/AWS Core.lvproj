@@ -26,6 +26,7 @@
 		<Item Name="NI_AWS_S3.lvlib" Type="Library" URL="../../S3/NI_AWS_S3.lvlib"/>
 		<Item Name="NI_AWS_SNS.lvlib" Type="Library" URL="../../SNS/NI_AWS_SNS.lvlib"/>
 		<Item Name="NI_AWS_SQS.lvlib" Type="Library" URL="../../SQS/NI_AWS_SQS.lvlib"/>
+		<Item Name="NI_JSON Parsing.lvlib" Type="Library" URL="../../JSON Parsing/NI_JSON Parsing.lvlib"/>
 		<Item Name="NI_XML Parsing.lvlib" Type="Library" URL="../../XML Parsing/NI_XML Parsing.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
