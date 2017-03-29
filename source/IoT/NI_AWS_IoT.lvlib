@@ -37,6 +37,7 @@
 		<Item Name="Generate Create Thing JSON.vi" Type="VI" URL="../Generate Create Thing JSON.vi"/>
 		<Item Name="Generate Topic Rule Action JSON.vi" Type="VI" URL="../Generate Topic Rule Action JSON.vi"/>
 		<Item Name="Generate Topic Rule JSON.vi" Type="VI" URL="../Generate Topic Rule JSON.vi"/>
+		<Item Name="Generate Update Thing JSON.vi" Type="VI" URL="../Generate Update Thing JSON.vi"/>
 		<Item Name="Parse Get Topic Rule JSON.vi" Type="VI" URL="../Parse Get Topic Rule JSON.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
@@ -45,16 +46,19 @@
 		<Item Name="DynamoDB.ctl" Type="VI" URL="../DynamoDB.ctl"/>
 		<Item Name="DynamoDBv2.ctl" Type="VI" URL="../DynamoDBv2.ctl"/>
 		<Item Name="Elasticsearch.ctl" Type="VI" URL="../Elasticsearch.ctl"/>
+		<Item Name="Enable State.ctl" Type="VI" URL="../Enable State.ctl"/>
 		<Item Name="Firehose.ctl" Type="VI" URL="../Firehose.ctl"/>
 		<Item Name="Kinesis.ctl" Type="VI" URL="../Kinesis.ctl"/>
 		<Item Name="Lambda.ctl" Type="VI" URL="../Lambda.ctl"/>
+		<Item Name="Policy.ctl" Type="VI" URL="../Policy.ctl"/>
 		<Item Name="Republish.ctl" Type="VI" URL="../Republish.ctl"/>
 		<Item Name="S3.ctl" Type="VI" URL="../S3.ctl"/>
 		<Item Name="SNS.ctl" Type="VI" URL="../SNS.ctl"/>
 		<Item Name="SQS.ctl" Type="VI" URL="../SQS.ctl"/>
+		<Item Name="Thing.ctl" Type="VI" URL="../Thing.ctl"/>
 		<Item Name="Topic Rule.ctl" Type="VI" URL="../Topic Rule.ctl"/>
 		<Item Name="Type Operation.ctl" Type="VI" URL="../Type Operation.ctl"/>
+		<Item Name="Type.ctl" Type="VI" URL="../Type.ctl"/>
 	</Item>
-	<Item Name="Generate Update Thing JSON.vi" Type="VI" URL="../Generate Update Thing JSON.vi"/>
 	<Item Name="IoT Session.lvclass" Type="LVClass" URL="../IoT Session/IoT Session.lvclass"/>
 </Library>
