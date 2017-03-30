@@ -34,6 +34,7 @@
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="Support" Type="Folder">
+		<Item Name="Clean Up Key String.vi" Type="VI" URL="../Clean Up Key String.vi"/>
 		<Item Name="Generate Create Thing JSON.vi" Type="VI" URL="../Generate Create Thing JSON.vi"/>
 		<Item Name="Generate Topic Rule Action JSON.vi" Type="VI" URL="../Generate Topic Rule Action JSON.vi"/>
 		<Item Name="Generate Topic Rule JSON.vi" Type="VI" URL="../Generate Topic Rule JSON.vi"/>
@@ -41,8 +42,10 @@
 		<Item Name="Parse Get Topic Rule JSON.vi" Type="VI" URL="../Parse Get Topic Rule JSON.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Certificate and Keys.ctl" Type="VI" URL="../Certificate and Keys.ctl"/>
 		<Item Name="CloudWatch Alarm.ctl" Type="VI" URL="../CloudWatch Alarm.ctl"/>
 		<Item Name="CloudWatch Metric.ctl" Type="VI" URL="../CloudWatch Metric.ctl"/>
+		<Item Name="Deprecation Action.ctl" Type="VI" URL="../Deprecation Action.ctl"/>
 		<Item Name="DynamoDB.ctl" Type="VI" URL="../DynamoDB.ctl"/>
 		<Item Name="DynamoDBv2.ctl" Type="VI" URL="../DynamoDBv2.ctl"/>
 		<Item Name="Elasticsearch.ctl" Type="VI" URL="../Elasticsearch.ctl"/>

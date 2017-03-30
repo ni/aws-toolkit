@@ -34,11 +34,14 @@
 	<Property Name="SaveStatePeriod" Type="UInt">0</Property>
 	<Property Name="Serialized ACL" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
-	<Item Name="support" Type="Folder">
+	<Item Name="Support" Type="Folder">
 		<Item Name="Trim Quotes.vi" Type="VI" URL="../Trim Quotes.vi"/>
 		<Item Name="Generate Name-Value Pair Array.vi" Type="VI" URL="../Generate Name-Value Pair Array.vi"/>
 		<Item Name="Wrap in Quotes.vi" Type="VI" URL="../Wrap in Quotes.vi"/>
 		<Item Name="Wrap in Brackets.vi" Type="VI" URL="../Wrap in Brackets.vi"/>
+	</Item>
+	<Item Name="Typedefs" Type="Folder">
+		<Item Name="Name Value Pair.ctl" Type="VI" URL="../Name Value Pair.ctl"/>
 	</Item>
 	<Item Name="Escape JSON.vi" Type="VI" URL="../Escape JSON.vi"/>
 	<Item Name="Unescape JSON.vi" Type="VI" URL="../Unescape JSON.vi"/>
