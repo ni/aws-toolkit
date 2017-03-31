@@ -43,6 +43,8 @@
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Certificate and Keys.ctl" Type="VI" URL="../Certificate and Keys.ctl"/>
+		<Item Name="Certificate Details.ctl" Type="VI" URL="../Certificate Details.ctl"/>
+		<Item Name="Certificate Status.ctl" Type="VI" URL="../Certificate Status.ctl"/>
 		<Item Name="CloudWatch Alarm.ctl" Type="VI" URL="../CloudWatch Alarm.ctl"/>
 		<Item Name="CloudWatch Metric.ctl" Type="VI" URL="../CloudWatch Metric.ctl"/>
 		<Item Name="Deprecation Action.ctl" Type="VI" URL="../Deprecation Action.ctl"/>
@@ -53,6 +55,7 @@
 		<Item Name="Firehose.ctl" Type="VI" URL="../Firehose.ctl"/>
 		<Item Name="Kinesis.ctl" Type="VI" URL="../Kinesis.ctl"/>
 		<Item Name="Lambda.ctl" Type="VI" URL="../Lambda.ctl"/>
+		<Item Name="Policy Version.ctl" Type="VI" URL="../Policy Version.ctl"/>
 		<Item Name="Policy.ctl" Type="VI" URL="../Policy.ctl"/>
 		<Item Name="Republish.ctl" Type="VI" URL="../Republish.ctl"/>
 		<Item Name="S3.ctl" Type="VI" URL="../S3.ctl"/>
@@ -60,6 +63,7 @@
 		<Item Name="SQS.ctl" Type="VI" URL="../SQS.ctl"/>
 		<Item Name="Thing.ctl" Type="VI" URL="../Thing.ctl"/>
 		<Item Name="Topic Rule.ctl" Type="VI" URL="../Topic Rule.ctl"/>
+		<Item Name="Transfer Data.ctl" Type="VI" URL="../Transfer Data.ctl"/>
 		<Item Name="Type Operation.ctl" Type="VI" URL="../Type Operation.ctl"/>
 		<Item Name="Type.ctl" Type="VI" URL="../Type.ctl"/>
 	</Item>
