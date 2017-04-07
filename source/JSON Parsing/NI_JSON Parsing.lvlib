@@ -42,6 +42,8 @@
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Name Value Pair.ctl" Type="VI" URL="../Name Value Pair.ctl"/>
+		<Item Name="JSON Type.ctl" Type="VI" URL="../JSON Type.ctl"/>
+		<Item Name="Name-Value with Type.ctl" Type="VI" URL="../Name-Value with Type.ctl"/>
 	</Item>
 	<Item Name="Escape JSON.vi" Type="VI" URL="../Escape JSON.vi"/>
 	<Item Name="Unescape JSON.vi" Type="VI" URL="../Unescape JSON.vi"/>
@@ -50,4 +52,5 @@
 	<Item Name="Get Parameter Value (array).vi" Type="VI" URL="../Get Parameter Value (array).vi"/>
 	<Item Name="Get Parameter Value (single).vi" Type="VI" URL="../Get Parameter Value (single).vi"/>
 	<Item Name="Get Parameter Value (JSON).vi" Type="VI" URL="../Get Parameter Value (JSON).vi"/>
+	<Item Name="Convert Attributes to Name-Value Pairs with Type.vi" Type="VI" URL="../Convert Attributes to Name-Value Pairs with Type.vi"/>
 </Library>

@@ -82,6 +82,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="NI_AWS_Core.lvlib" Type="Library" URL="../../../../Core/NI_AWS_Core.lvlib"/>
+			<Item Name="NI_AWS_IAM.lvlib" Type="Library" URL="../../../../IAM/NI_AWS_IAM.lvlib"/>
 			<Item Name="NI_AWS_SQS.lvlib" Type="Library" URL="../../../NI_AWS_SQS.lvlib"/>
 			<Item Name="NI_XML Parsing.lvlib" Type="Library" URL="../../../../XML Parsing/NI_XML Parsing.lvlib"/>
 		</Item>

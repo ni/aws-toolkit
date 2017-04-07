@@ -54,6 +54,7 @@
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
 			</Item>
 			<Item Name="NI_XML Parsing.lvlib" Type="Library" URL="../../XML Parsing/NI_XML Parsing.lvlib"/>
+			<Item Name="NI_AWS_IAM.lvlib" Type="Library" URL="../../IAM/NI_AWS_IAM.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

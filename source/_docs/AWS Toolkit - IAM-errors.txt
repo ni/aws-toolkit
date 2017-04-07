@@ -1,0 +1,9 @@
+<?XML Version="1.0" encoding="ISO-8859-1"?>
+<nidocument>
+<nicomment>
+LabVIEW error codes file - AWS Toolkit - IAM
+</nicomment>
+<nierror code="412500">
+LimitExceeded - The request was rejected because it attempted to create resources beyond the current AWS account limits.
+</nierror>
+</nidocument>

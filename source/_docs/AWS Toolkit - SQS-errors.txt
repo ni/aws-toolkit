@@ -39,4 +39,7 @@ ReceiptHandleIsInvalid - The receipt handle provided is not valid.
 <nierror code="412111">
 The AWS SQS VIs do not currently support FIFO Queues.
 </nierror>
+<nierror code="412112">
+The ARN for the specified SQS queue could not be found.
+</nierror>
 </nidocument>

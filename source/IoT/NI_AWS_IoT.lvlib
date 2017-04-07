@@ -36,10 +36,12 @@
 	<Item Name="Support" Type="Folder">
 		<Item Name="Clean Up Key String.vi" Type="VI" URL="../Clean Up Key String.vi"/>
 		<Item Name="Generate Create Thing JSON.vi" Type="VI" URL="../Generate Create Thing JSON.vi"/>
+		<Item Name="Generate Shadow State JSON.vi" Type="VI" URL="../Generate Shadow State JSON.vi"/>
 		<Item Name="Generate Topic Rule Action JSON.vi" Type="VI" URL="../Generate Topic Rule Action JSON.vi"/>
 		<Item Name="Generate Topic Rule JSON.vi" Type="VI" URL="../Generate Topic Rule JSON.vi"/>
 		<Item Name="Generate Update Thing JSON.vi" Type="VI" URL="../Generate Update Thing JSON.vi"/>
 		<Item Name="Parse Get Topic Rule JSON.vi" Type="VI" URL="../Parse Get Topic Rule JSON.vi"/>
+		<Item Name="Parse Thing Shadow JSON.vi" Type="VI" URL="../Parse Thing Shadow JSON.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Certificate and Keys.ctl" Type="VI" URL="../Certificate and Keys.ctl"/>
@@ -68,4 +70,5 @@
 		<Item Name="Type.ctl" Type="VI" URL="../Type.ctl"/>
 	</Item>
 	<Item Name="IoT Session.lvclass" Type="LVClass" URL="../IoT Session/IoT Session.lvclass"/>
+	<Item Name="Thing Shadow.lvclass" Type="LVClass" URL="../Thing Shadow/Thing Shadow.lvclass"/>
 </Library>

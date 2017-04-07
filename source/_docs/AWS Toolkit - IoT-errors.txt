@@ -4,7 +4,7 @@
 LabVIEW error codes file - AWS Toolkit - IoT
 </nicomment>
 <nierror code="412400">
-The Thing name cannot be blank.
+A required string field was blank.
 </nierror>
 <nierror code="412401">
 You cannot specify more than 3 attributes when creating a Thing.
@@ -70,11 +70,11 @@ more than one CA certificate that has the same subject field and public key.
 <nierror code="412421">
 TransferConflictException - You cannot transfer the certificate because authorization policies are still attached.
 </nierror>
-<nierror code="">
-
+<nierror code="412422">
+NotFoundException - The specified resource does not exist.
 </nierror>
-<nierror code="">
-
+<nierror code="412423">
+You must specify a version number greater than 0.
 </nierror>
 <nierror code="">
 

@@ -12,6 +12,7 @@
 		<Property Name="IOScan.Priority" Type="UInt">9</Property>
 		<Property Name="IOScan.ReportModeConflict" Type="Bool">true</Property>
 		<Property Name="IOScan.StartEngineOnDeploy" Type="Bool">false</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -22,6 +23,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="NI_AWS_Core.lvlib" Type="Library" URL="../NI_AWS_Core.lvlib"/>
+		<Item Name="NI_AWS_IAM.lvlib" Type="Library" URL="../../IAM/NI_AWS_IAM.lvlib"/>
 		<Item Name="NI_AWS_IoT.lvlib" Type="Library" URL="../../IoT/NI_AWS_IoT.lvlib"/>
 		<Item Name="NI_AWS_S3.lvlib" Type="Library" URL="../../S3/NI_AWS_S3.lvlib"/>
 		<Item Name="NI_AWS_SNS.lvlib" Type="Library" URL="../../SNS/NI_AWS_SNS.lvlib"/>
