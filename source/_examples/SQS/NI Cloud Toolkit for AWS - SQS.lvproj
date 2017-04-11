@@ -1,7 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.Project.Description" Type="Str">Contains examples illustrating the use of the S3 VIs in the LabVIEW AWS Toolkit.</Property>
+	<Property Name="NI.Project.Description" Type="Str">Contains examples illustrating the use of the SQS VIs in the NI Cloud Toolkit for AWS.</Property>
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -21,10 +21,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Create New Bucket.vi" Type="VI" URL="../Create New Bucket.vi"/>
-		<Item Name="List Buckets.vi" Type="VI" URL="../List Buckets.vi"/>
-		<Item Name="List Contents of Bucket.vi" Type="VI" URL="../List Contents of Bucket.vi"/>
-		<Item Name="Upload File to Bucket.vi" Type="VI" URL="../Upload File to Bucket.vi"/>
+		<Item Name="Create New SQS Queue.vi" Type="VI" URL="../Create New SQS Queue.vi"/>
+		<Item Name="List SQS Queues in Region.vi" Type="VI" URL="../List SQS Queues in Region.vi"/>
+		<Item Name="Receive Messages from Queue.vi" Type="VI" URL="../Receive Messages from Queue.vi"/>
+		<Item Name="Send Message to Queue.vi" Type="VI" URL="../Send Message to Queue.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Build Error Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/error/error.llb/Build Error Cluster__ogtk.vi"/>
@@ -62,7 +62,6 @@
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
 				<Item Name="i3-external-encryption.lvlib" Type="Library" URL="/&lt;vilib&gt;/LVH/i3 External Encryption/i3-external-encryption.lvlib"/>
-				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="LabVIEWHTTPClient.lvlib" Type="Library" URL="/&lt;vilib&gt;/httpClient/LabVIEWHTTPClient.lvlib"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
@@ -76,17 +75,16 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
-				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="NI_AWS_Core.lvlib" Type="Library" URL="../../../../Core/NI_AWS_Core.lvlib"/>
-			<Item Name="NI_AWS_IAM.lvlib" Type="Library" URL="../../../../IAM/NI_AWS_IAM.lvlib"/>
-			<Item Name="NI_AWS_S3.lvlib" Type="Library" URL="../../../NI_AWS_S3.lvlib"/>
-			<Item Name="NI_XML Parsing.lvlib" Type="Library" URL="../../../../XML Parsing/NI_XML Parsing.lvlib"/>
+			<Item Name="NI_AWS_Core.lvlib" Type="Library" URL="../../../Core/NI_AWS_Core.lvlib"/>
+			<Item Name="NI_AWS_IAM.lvlib" Type="Library" URL="../../../IAM/NI_AWS_IAM.lvlib"/>
+			<Item Name="NI_AWS_SQS.lvlib" Type="Library" URL="../../../SQS/NI_AWS_SQS.lvlib"/>
+			<Item Name="NI_XML Parsing.lvlib" Type="Library" URL="../../../XML Parsing/NI_XML Parsing.lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>

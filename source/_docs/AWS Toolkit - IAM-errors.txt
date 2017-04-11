@@ -6,4 +6,7 @@ LabVIEW error codes file - AWS Toolkit - IAM
 <nierror code="412500">
 LimitExceeded - The request was rejected because it attempted to create resources beyond the current AWS account limits.
 </nierror>
+<nierror code="412501">
+EntityAlreadyExists - The request was rejected because it attempted to create a resource that already exists.
+</nierror>
 </nidocument>
