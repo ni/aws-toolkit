@@ -39,6 +39,7 @@
 		<Item Name="Generate Name-Value Pair Array.vi" Type="VI" URL="../Generate Name-Value Pair Array.vi"/>
 		<Item Name="Wrap in Quotes.vi" Type="VI" URL="../Wrap in Quotes.vi"/>
 		<Item Name="Wrap in Brackets.vi" Type="VI" URL="../Wrap in Brackets.vi"/>
+		<Item Name="Match Closing Character.vi" Type="VI" URL="../Match Closing Character.vi"/>
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Name Value Pair.ctl" Type="VI" URL="../Name Value Pair.ctl"/>
