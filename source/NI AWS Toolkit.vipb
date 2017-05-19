@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2011-07-24 14:23:59" Modified_Date="2017-04-11 16:44:53" Creator="Smith" Comments="" ID="7f3497e38c7deffcb8efb18d0548735b">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2011-07-24 14:23:59" Modified_Date="2017-05-19 16:04:34" Creator="Smith" Comments="" ID="835dee42f67f654d6cecba30e0b76219">
   <Library_General_Settings>
     <Package_File_Name>ni_cloud_toolkit_for_aws</Package_File_Name>
     <Library_Version>1.0.0.2</Library_Version>
@@ -168,6 +168,12 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>_examples/SQS</Path>
         <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
+        <Additional_Destination_Index>0</Additional_Destination_Index>
+      </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>_examples/Cloud_Toolkit_AWS.bin3</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Password_Overrides>
@@ -396,7 +402,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>IoT</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71CBD405C44E7F0FE125BB323366A640</GUID>
+      <GUID>D9C7CDF6A65081F2475CE06DE42F0A66</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -585,7 +591,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>Advanced Object</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3357167DF9820659631003849F99AD90</GUID>
+      <GUID>B757B8DECC3D894C4C8830E3B7B7C4FF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -816,7 +822,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>S3\Bucket\Create Bucket Storage Policy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B74431CCFF81374795DE45FFA447E52A</GUID>
+      <GUID>C4042401578EC92464883D26F1AD951E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>1</Parent_Palette_Index>
@@ -879,7 +885,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>S3\Bucket\Set Object ACL.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B97BAF756124CFFA0223EA462332BED2</GUID>
+      <GUID>76B64DF5CDA0EFC024B05ED1F26AD879</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -956,7 +962,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>Phone Number</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F52CB660EE2B60BF4AFDAB988F3F8FAE</GUID>
+      <GUID>1A9990E200394EC4E143FD7A8CD70F4E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1131,7 +1137,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>SNS\Topic\Create Publish Topic Policy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>B927C04D579DCCEBDEF0E58E18DD08A7</GUID>
+      <GUID>E4BB3EC0FABCFAACAEB954E719F7CB1B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1222,7 +1228,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>SNS\Subscription\Set Subscription Attribute.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F8310476589A90A08CC3C7EF363BD7D9</GUID>
+      <GUID>35BB8CCA20D1C3DF984105561ED29B59</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1285,7 +1291,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>SNS\SMS\Set SMS Attributes.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7FB318A596D5FFC74C9B7154DA6225D3</GUID>
+      <GUID>AF1105DD5A9047E3F302FD09DC822DB9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>4</Parent_Palette_Index>
@@ -1376,7 +1382,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>SNS\Phone Number\List Phone Numbers Opted Out.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0186F312154C501D823066AFB7ABADC6</GUID>
+      <GUID>98B208B902598DAB3303C2051DFF70D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1509,7 +1515,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>Advanced Queue</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7509C5B789E17B02FBE85B93264DEAB4</GUID>
+      <GUID>7756E63D365C3FE9629D42785D110657</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>9</Parent_Palette_Index>
@@ -1656,7 +1662,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>SQS\Queue\Create Send Message Policy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F88492112970F53C77ADFE1669E7DADD</GUID>
+      <GUID>AD0D8A686BCF51467BEF5AB58A7C5BFF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1775,7 +1781,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>Utility</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7340EEEB05842F5D3A7BF96D7ECA5BEB</GUID>
+      <GUID>C596675E718398F1B7313F9AE2301E2B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -1922,7 +1928,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>Thing Shadow</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>1323829A17B3CE5270D8F1BB111C8843</GUID>
+      <GUID>5A990028468A002246F33AA2EE2F28F5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>12</Parent_Palette_Index>
@@ -1999,7 +2005,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>IoT\Thing Shadow\Delete Thing Shadow.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4617B139570A2B1515D22D0043EC3846</GUID>
+      <GUID>5BF153CC92DFD852012F1BA0111451A7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2090,7 +2096,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>IoT\IoT Session\List Types.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>49DA87F9071E8918E8FB8751EA6232FC</GUID>
+      <GUID>70E1347D5E83B06153D1BF513D852D67</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2279,7 +2285,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>IoT\IoT Session\Detach Principal from Policy.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5CB3F823B489DCBB1393F69D2E750926</GUID>
+      <GUID>14585B4889B94A6429163C373E7BD7BB</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2384,7 +2390,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>IoT\IoT Session\Set Topic Rule Enable State.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>93EE169384DEFC44C142CE6DDC9902B2</GUID>
+      <GUID>BA879A2358DF706D9771F0FD9AC75264</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2517,7 +2523,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>CA Certificate</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C12F211E584E96C0F0479143BE9AEAB7</GUID>
+      <GUID>A60D8BD463B16C06D116BC18CB55BDD6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>17</Parent_Palette_Index>
@@ -2566,7 +2572,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>IoT\IoT Session\Delete Registration Code.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E6A1DB012D3DBB90D31DE406D46853E6</GUID>
+      <GUID>636CEB2641AB5609BBAEB9373CE3872A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>11</Parent_Palette_Index>
@@ -2629,7 +2635,7 @@ The initial release of the NI Cloud Toolkit for AWS includes support for the fol
         <Path>IoT\IoT Session\Get Endpoint Details.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F59A82F8590EF0333FD780516E3D550C</GUID>
+      <GUID>CCBB79274F37D4A2C689F104A82E5FD1</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
