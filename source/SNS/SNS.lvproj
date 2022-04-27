@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="15008000">
+<Project Type="Project" LVVersion="18008000">
 	<Property Name="SMProvider.SMVersion" Type="Int">201310</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="IOScan.Faults" Type="Str"></Property>
@@ -25,6 +25,7 @@
 		<Item Name="NI_AWS_SNS.lvlib" Type="Library" URL="../NI_AWS_SNS.lvlib"/>
 		<Item Name="sample create 150 topics.vi" Type="VI" URL="../sample create 150 topics.vi"/>
 		<Item Name="sns application sample.vi" Type="VI" URL="../sns application sample.vi"/>
+		<Item Name="sns publish to topic.vi" Type="VI" URL="../sns publish to topic.vi"/>
 		<Item Name="sns subscription sample.vi" Type="VI" URL="../sns subscription sample.vi"/>
 		<Item Name="sns topic sample.vi" Type="VI" URL="../sns topic sample.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
